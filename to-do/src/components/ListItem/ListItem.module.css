@@ -1,0 +1,44 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.inner {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.checkbox {
+  color: #408e91;
+  cursor: pointer;
+}
+
+.done {
+  text-decoration-line: line-through;
+  color: #999;
+}
+
+.delete {
+  padding: 0;
+  font-size: 20px;
+  transition: 0.2s;
+}
+
+.delete:hover {
+  color: #fc2947;
+  scale: 1.1;
+}
+
+/* darkMode */
+.delete.dark {
+  color: white;
+}
+
+.delete.dark:hover {
+  color: #fc2947;
+  scale: 1.1;
+}

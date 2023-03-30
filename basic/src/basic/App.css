@@ -1,0 +1,82 @@
+/* AppProfile */
+.profile {
+  width: 300px;
+  background-color: #ddd;
+  text-align: center;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 5px 0px rgba(110, 110, 110, 0.75);
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(110, 110, 110, 0.75);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(110, 110, 110, 0.75);
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.avatar {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+
+.new {
+  position: absolute;
+  top: 5%;
+  right: 0;
+  background-color: gold;
+  color: #fff;
+  padding: 3px 6px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* AppCounter */
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner {
+  background-color: rgb(189, 223, 169);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid orange;
+}
+
+.counter:hover {
+  background-color: tomato;
+}
+
+.number {
+  font-size: 7rem;
+}
+
+.button {
+  font-size: 2rem;
+  padding: 0.2rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: #ddd;
+}
+
+.total {
+  font-size: 1.2rem;
+  margin-left: -1.5rem;
+}

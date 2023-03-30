@@ -1,0 +1,47 @@
+.header {
+  border-bottom: 1px solid #ddd;
+  padding: 50px 0 30px;
+}
+
+.inner {
+  padding: 0 40px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.button {
+  color: #408e91;
+  padding: 0;
+  font-size: 30px;
+}
+
+.filter {
+  display: flex;
+  gap: 47px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.show,
+.hide {
+  cursor: pointer;
+}
+
+.show {
+  color: #408e91;
+  font-weight: 600;
+}
+
+/* darkMode */
+.header.dark {
+  border-bottom: 1px solid #2a283d;
+}
