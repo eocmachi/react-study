@@ -1,0 +1,31 @@
+.AddForm {
+  background-color: var(--color-bg-gray);
+  padding: 20px 25px;
+  transition: 0.2s;
+}
+
+.form {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 20px;
+  border-radius: 15px;
+}
+
+.input {
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
+
+.addBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: var(--color-accent);
+  color: #fff;
+}

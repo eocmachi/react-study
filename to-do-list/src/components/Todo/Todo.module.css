@@ -1,0 +1,33 @@
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  accent-color: #408e91;
+  cursor: pointer;
+}
+
+.text {
+  flex: 1 1 0%;
+  margin-left: 20px;
+}
+
+.delete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-black);
+  transition: 0.2s;
+}
+
+.delete:hover {
+  color: #fc2947;
+  scale: 1.05;
+}
